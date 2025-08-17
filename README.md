@@ -3,7 +3,7 @@
 <h2>👨‍💻 IT | Software  Projects:</h2>
 
 
-- <b>Homelab</b>
+- <b>Homelabs</b>
 
 - <b>PowerShell</b>
 
