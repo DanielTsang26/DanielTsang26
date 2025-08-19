@@ -2,8 +2,10 @@
 
 <h2>👨‍💻 IT | Software  Projects:</h2>
 
--<h2> <b>Home Labs</b> </h2>
+- <h2> <b>Home Labs</b> </h2>
+
    - [Active Directory Lab](https://github.com/DanielTsang26/home-lab/blob/main/active-directory.md)
+   
    - [Home Lab](https://github.com/DanielTsang26/home-lab)
 
 
@@ -17,10 +19,14 @@
 - <h2><b>Vulnerability Management | Remediation | Network & Security </b></h2>
 
 
-- <b>Python</b>
+- <h2><b>Python</b></h2>
+
    - [Network Monitoring Tool](https://github.com/DanielTsang26/network-packet-monitoring-tool/tree/main)
+   
    - [Port Scanner](https://github.com/DanielTsang26/port-scanner)
+     
    - [URL-Shortner](https://github.com/DanielTsang26/url-shortner/tree/main)
+     
    - [File-Server](https://github.com/DanielTsang26/file-server)
  
      ```
