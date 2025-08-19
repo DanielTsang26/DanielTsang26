@@ -1,4 +1,6 @@
-<h1>Hi, I'm Daniel! <br/><a href="https://github.com/DanielTsang26">Programmer</a>, <a href="https://www.linkedin.com/">IT Professional</a>
+<h1>Hi, I'm Daniel! IT Professional | Programmer </h1>
+
+
 
 <h2>👨‍💻 IT | Software  Projects:</h2>
 
