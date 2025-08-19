@@ -22,6 +22,10 @@
    - [Port Scanner](https://github.com/DanielTsang26/port-scanner)
    - [URL-Shortner](https://github.com/DanielTsang26/url-shortner/tree/main)
    - [File-Server](https://github.com/DanielTsang26/file-server)
+ 
+     ```
+     Technologies | Languages used: Python, MySQL, Flask, HTML, CSS, VSCode
+     ```
 
 
 <h2> 🤳 Connect with me:</h2>
