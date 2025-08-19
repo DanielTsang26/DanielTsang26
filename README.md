@@ -1,4 +1,4 @@
-<h1>Hi, I'm Daniel! <br/><a href="https://github.com/joshmadakor1">Programmer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">IT Professional</a>
+<h1>Hi, I'm Daniel! <br/><a href="https://github.com/DanielTsang26">Programmer</a>, <a href="https://www.linkedin.com/">IT Professional</a>
 
 <h2>👨‍💻 IT | Software  Projects:</h2>
 
