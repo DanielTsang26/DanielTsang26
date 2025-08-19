@@ -3,7 +3,7 @@
 <h2>👨‍💻 IT | Software  Projects:</h2>
 
 
-- <b>Homelabs</b>
+- <b>Home Labs</b>
    - [Active Directory Lab](https://github.com/DanielTsang26/home-lab/blob/main/active-directory.md)
    - [Home Lab](https://github.com/DanielTsang26/home-lab)
 - <b>PowerShell</b>
