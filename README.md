@@ -16,7 +16,10 @@
 - <h2><b>PowerShell</b></h2>
 
 
+
 - <h2><b>Vulnerability Management | Remediation | Network & Security </b></h2>
+
+
 
 
 - <h2><b>Python</b></h2>
