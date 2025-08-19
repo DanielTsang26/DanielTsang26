@@ -12,7 +12,10 @@
 
 
 - <b>Python</b>
-  
+   - [Network Monitoring Tool](https://github.com/DanielTsang26/network-packet-monitoring-tool/tree/main)
+   - [Port Scanner](https://github.com/DanielTsang26/port-scanner)
+   - [URL-Shortner](https://github.com/DanielTsang26/url-shortner/tree/main)
+   - [File-Server](https://github.com/DanielTsang26/file-server)
 
 
 <h2> 🤳 Connect with me:</h2>
