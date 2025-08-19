@@ -6,6 +6,12 @@
 - <b>Home Labs</b>
    - [Active Directory Lab](https://github.com/DanielTsang26/home-lab/blob/main/active-directory.md)
    - [Home Lab](https://github.com/DanielTsang26/home-lab)
+
+
+     ```
+     Technologies used: VirtualBox, Windows 2019 Server, Windows 10 ISO, Active Directory, Powershell, DHCP, DNS,
+     ```
+     
 - <b>PowerShell</b>
 
 - <b>Vulnerability Management | Remediation | Network & Security </b>
