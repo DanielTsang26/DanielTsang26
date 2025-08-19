@@ -4,7 +4,8 @@
 
 
 - <b>Homelabs</b>
-
+   - [Active Directory Lab](https://github.com/DanielTsang26/home-lab/blob/main/active-directory.md)
+   - [Home Lab](https://github.com/DanielTsang26/home-lab)
 - <b>PowerShell</b>
 
 - <b>Vulnerability Management | Remediation | Network & Security </b>
