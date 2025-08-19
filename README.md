@@ -9,7 +9,7 @@
 
 
      ```
-     Technologies used: VirtualBox, Windows 2019 Server, Windows 10 ISO, Active Directory, Powershell, DHCP, DNS,
+     Technologies used: VirtualBox, Windows 2019 Server, Windows 10 ISO, Active Directory, Powershell, DHCP, DNS
      ```
      
 - <b>PowerShell</b>
