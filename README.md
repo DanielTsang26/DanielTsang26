@@ -8,7 +8,7 @@
 
    - [Home Lab](https://github.com/DanielTsang26/home-lab)
 
-   - [SET Lab](https://github.com/DanielTsang26/SET)
+   - [SET Lab (Phishing Attack)](https://github.com/DanielTsang26/SET)
      
    - [Active Directory Lab](https://github.com/DanielTsang26/home-lab/blob/main/active-directory.md)
    
