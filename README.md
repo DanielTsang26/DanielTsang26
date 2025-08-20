@@ -64,8 +64,10 @@
 ## <code> PROGRAMMING LANGUAGES</code>
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/-Powershell-5793fa?style=flat-square&logo=Powershell)
-![MySQL](https://img.shields.io/badge/-MySQL-5793fa?style=flat-square&logo=MySQL)
+![C#](https://img.shields.io/badge/C%23%20-%20green)
+![PowerShell](https://img.shields.io/badge/PowerShell%20-%20black)
+![MySQL](https://img.shields.io/badge/MySQL%20-%20red)
+
 
 <h2> 🤳 Connect with me:</h2>
 
