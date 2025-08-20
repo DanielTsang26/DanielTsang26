@@ -37,7 +37,7 @@
      ```
      Technologies | Languages used: Python, MySQL, Flask, HTML, CSS, VSCode
      ```
-## <code>TECHNOLOGIES</code>
+## <code>TECHNICAL SKILLS</code>
 
 ![AWS](https://img.shields.io/badge/-AWS-1d242e?style=flat-square&logo=AWS)
 ![Azure Active Directory](https://img.shields.io/badge/-Azure_Active_Directory-0b7cdf?style=flat-square&logo=Azure_Active_Directory)
