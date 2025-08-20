@@ -6,9 +6,11 @@
 
 ## <code> Home Lab </code>
 
+   - [Home Lab](https://github.com/DanielTsang26/home-lab)
+     
    - [Active Directory Lab](https://github.com/DanielTsang26/home-lab/blob/main/active-directory.md)
    
-   - [Home Lab](https://github.com/DanielTsang26/home-lab)
+  
 
 
      ```
@@ -26,13 +28,15 @@
 
 ## <code> PYTHON </code>
 
-   - [Network Monitoring Tool](https://github.com/DanielTsang26/network-packet-monitoring-tool/tree/main)
-   
    - [Port Scanner](https://github.com/DanielTsang26/port-scanner)
      
    - [URL-Shortner](https://github.com/DanielTsang26/url-shortner/tree/main)
      
    - [File-Server](https://github.com/DanielTsang26/file-server)
+
+   - [Network Monitoring Tool](https://github.com/DanielTsang26/network-packet-monitoring-tool/tree/main)
+   
+   
  
      ```
      Technologies | Languages used: Python, MySQL, Flask, HTML, CSS, VSCode
