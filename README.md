@@ -12,7 +12,6 @@
      
    - [Active Directory Lab](https://github.com/DanielTsang26/home-lab/blob/main/active-directory.md)
    
-  
 
 
      ```
@@ -23,7 +22,7 @@
 
 ## <code> Vulnerability Management & Remediation | Network & Security </code>
 
-
+  - [Password Audit/ Cracker Lab](https://github.com/DanielTsang26/password_audit_lab/tree/main)
 
 
 ## <code> PYTHON (SOFTWARE PROJECTS) </code>
