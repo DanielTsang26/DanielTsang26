@@ -22,7 +22,7 @@
 
 ## <code> Vulnerability Management & Remediation | Network & Security </code>
 
-  - [Password Cracker Lab](https://github.com/DanielTsang26/password_audit_lab/tree/main)
+  - [Password Cracker/ Audit Lab](https://github.com/DanielTsang26/password_audit_lab/tree/main)
 
 
 ## <code> PYTHON (SOFTWARE PROJECTS) </code>
