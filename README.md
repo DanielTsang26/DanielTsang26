@@ -20,11 +20,8 @@
      Powershell, DHCP, DNS, Kali Linux, Linux, SET
      ```
    
-## <code> Powershell </code>
 
-
-
-## <code> Vulnerability Management | Remediation | Network & Security </code>
+## <code> Vulnerability Management & Remediation | Network & Security </code>
 
 
 
