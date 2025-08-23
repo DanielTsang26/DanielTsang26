@@ -25,7 +25,7 @@
   - [Password Cracker Lab](https://github.com/DanielTsang26/password_audit_lab/tree/main)
 
      ```
-     Technologies used: VirtualBox, Linux, John the Ripper, Terminal
+     Technologies used: VirtualBox, Linux, John the Ripper, Terminal(Bash/Shell)
      ```
 
 ## <code> PYTHON (SOFTWARE PROJECTS) </code>
