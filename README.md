@@ -23,9 +23,11 @@
 ## <code> Vulnerability Management & Remediation | Network & Security </code>
 
   - [Password Cracker Lab](https://github.com/DanielTsang26/password_audit_lab/tree/main)
+  - [Network Monitoring Lab (Linux Edition)](https://github.com/DanielTsang26/network-monitoring-lab/tree/main)
 
      ```
-     Technologies used: VirtualBox, Linux, John the Ripper, Terminal(Bash/Shell)
+     Technologies used: VirtualBox, Linux, John the Ripper, Terminal(Bash/Shell), Syslog, NetFlow,
+     VRRP
      ```
 
 ## <code> PYTHON (SOFTWARE PROJECTS) </code>
