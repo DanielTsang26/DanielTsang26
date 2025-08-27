@@ -29,8 +29,8 @@
   - [Network Monitoring Lab (Windows Edition)](https://github.com/DanielTsang26/network-monitoring-lab-windows/tree/main)
 
      ```
-     Technologies used: VirtualBox, Linux, Windows 10 ISO, Windows 2019 ,John the Ripper, Terminal(Bash/Shell), Syslog, NetFlow,
-     VRRP, Event Viewer, Wireshark Pro
+     Technologies used: VirtualBox, Linux, Windows 10 ISO, Windows 2019 ,John the Ripper, Terminal(Bash/Shell),
+     Syslog, NetFlow, VRRP, Event Viewer, Wireshark Pro
      ```
 
 ## <code> PYTHON (SOFTWARE PROJECTS) </code>
