@@ -23,11 +23,14 @@
 ## <code> Vulnerability Management & Remediation | Network & Security </code>
 
   - [Password Cracker Lab](https://github.com/DanielTsang26/password_audit_lab/tree/main)
+    
   - [Network Monitoring Lab (Linux Edition)](https://github.com/DanielTsang26/network-monitoring-lab/tree/main)
+    
+  - [Network Monitoring Lab (Windows Edition)](https://github.com/DanielTsang26/network-monitoring-lab-windows/tree/main)
 
      ```
-     Technologies used: VirtualBox, Linux, John the Ripper, Terminal(Bash/Shell), Syslog, NetFlow,
-     VRRP
+     Technologies used: VirtualBox, Linux, Windows 10 ISO, Windows 2019 ,John the Ripper, Terminal(Bash/Shell), Syslog, NetFlow,
+     VRRP, Event Viewer, Wireshark Pro
      ```
 
 ## <code> PYTHON (SOFTWARE PROJECTS) </code>
