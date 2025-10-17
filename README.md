@@ -28,7 +28,7 @@
     
   - [Network Monitoring Lab (Windows Edition)](https://github.com/DanielTsang26/network-monitoring-lab-windows/tree/main)
 
-  - [Vulnerability Management Lab)[https://github.com/DanielTsang26/vulnerability-management-project]
+  - [Vulnerability Management Lab][https://github.com/DanielTsang26/vulnerability-management-project]
 
      ```
      Technologies used: VirtualBox, Linux, Windows 10 ISO, Windows 2019 ,John the Ripper, Terminal(Bash/Shell),
