@@ -32,7 +32,7 @@
 
      ```
      Technologies used: VirtualBox, Linux, Windows 10 ISO, Windows 2019 ,John the Ripper, Terminal(Bash/Shell),
-     Syslog, NetFlow, VRRP, Event Viewer, Wireshark Pro, AzureVM, Tenable
+     Syslog, NetFlow, VRRP, Event Viewer, Wireshark Pro, AzureVM, Tenable, KQL
      ```
 
 ## <code> PYTHON (SOFTWARE PROJECTS) </code>
