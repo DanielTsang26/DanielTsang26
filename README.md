@@ -46,14 +46,13 @@
    - [File-Server](https://github.com/DanielTsang26/file-server)
 
    - [Network Monitoring Tool](https://github.com/DanielTsang26/network-packet-monitoring-tool/tree/main)
-
-   
-   
-   
  
      ```
      Technologies | Languages used: Python, MySQL, Flask, HTML, CSS, VSCode
      ```
+## <code> Security Technical Implementation Guides (Remedition via PowerShell) </code> 
+  - [STIGs](https://github.com/DanielTsang26/DanielTsang26/tree/main/STIGS)
+     
 ## <code>TECHNICAL SKILLS</code>
 
 ![AWS](https://img.shields.io/badge/-AWS-1d242e?style=flat-square&logo=AWS)
