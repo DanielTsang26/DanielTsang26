@@ -1,0 +1,43 @@
+<#
+.SYNOPSIS
+    This PowerShell script ensures that the system configured to audit System - Security System Extension successes.
+
+.NOTES
+    Author          : Daniel Tsang
+    LinkedIn        : www.linkedin.com/in/daniel-tsang-58a772381
+    GitHub          : github.com/DanielTsang26
+    Date Created    : 2025-11-19
+    Last Modified   : 2025-11-19
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN10-AU-000150
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN11-AU-000150).ps1 
+#>
+
+# Run as Administrator
+if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltinRole] "Administrator")) {
+    Write-Host "Please run this script as Administrator."
+    exit
+}
+
+Write-Host "Setting Security System Extension audit to Success..."
+
+# Enable Security System Extension Success auditing
+auditpol /set /subcategory:"Security System Extension" /success:enable
+
+# Show the current setting
+Write-Host "`nCurrent Audit Setting:"
+auditpol /get /subcategory:"Security System Extension"
+
+Write-Host "`nAudit setting applied."
