@@ -1,0 +1,42 @@
+<#
+.SYNOPSIS
+    This PowerShell script disables printing over HTTP by creating or updating the required registry setting to comply with the STIG.
+
+.NOTES
+    Author          : Daniel Tsang
+    LinkedIn        : www.linkedin.com/in/daniel-tsang-58a772381
+    GitHub          : github.com/DanielTsang26
+    Date Created    : 2025-11-21
+    Last Modified   : 2025-11-21
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000110
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000110).ps1 
+#>
+
+# Registry path and value information
+$RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers"
+$ValueName = "DisableHTTPPrinting"
+$ValueData = 1   # 1 = Printing over HTTP disabled
+
+# Create the registry key if it doesn't exist
+if (-not (Test-Path $RegPath)) {
+    New-Item -Path $RegPath -Force | Out-Null
+}
+
+# Set the registry value
+Set-ItemProperty -Path $RegPath -Name $ValueName -Value $ValueData -Type DWord
+
+# Verify the change
+Get-ItemProperty -Path $RegPath -Name $ValueName
