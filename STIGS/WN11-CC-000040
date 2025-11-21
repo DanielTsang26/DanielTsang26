@@ -1,0 +1,41 @@
+<#
+.SYNOPSIS
+    This PowerShell script disable insecure guest logons.
+
+.NOTES
+    Author          : Daniel Tsang
+    LinkedIn        : www.linkedin.com/in/daniel-tsang-58a772381
+    GitHub          : github.com/DanielTsang26
+    Date Created    : 2025-11-21
+    Last Modified   : 2025-11-21
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000040
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000040).ps1 
+#>
+
+# Fix STIG: Disable insecure guest logons
+
+$regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation"
+$valueName = "AllowInsecureGuestAuth"
+
+# Ensure the path exists
+if (-not (Test-Path $regPath)) {
+    New-Item -Path $regPath -Force | Out-Null
+}
+
+# Set the DWORD value to 0
+Set-ItemProperty -Path $regPath -Name $valueName -Value 0 -Type DWord
+
+Write-Host "Configured: AllowInsecureGuestAuth set to 0 (Disabled)."
