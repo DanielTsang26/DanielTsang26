@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script disable insecure guest logons.
+    This PowerShell script disables insecure guest logons.
 
 .NOTES
     Author          : Daniel Tsang
