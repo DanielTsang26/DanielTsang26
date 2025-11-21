@@ -1,0 +1,50 @@
+<#
+.SYNOPSIS
+    This PowerShell script is design to hardened UNC Paths check & remediate.
+
+.NOTES
+    Author          : Daniel Tsang
+    LinkedIn        : www.linkedin.com/in/daniel-tsang-58a772381
+    GitHub          : github.com/DanielTsang26
+    Date Created    : 2025-11-21
+    Last Modified   : 2025-11-21
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         :  WN11-CC-000050
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID- WN11-CC-000050).ps1 
+#>
+
+# STIG V-253362 - Hardened UNC Paths Check + Auto-Fix
+
+$regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths"
+$requiredValue = "RequireMutualAuthentication=1, RequireIntegrity=1"
+$entries = @("\\*\SYSVOL", "\\*\NETLOGON")
+
+# Ensure path exists
+if (-not (Test-Path $regPath)) {
+    New-Item -Path $regPath -Force | Out-Null
+}
+
+foreach ($entry in $entries) {
+    $current = (Get-ItemProperty -Path $regPath -Name $entry -ErrorAction SilentlyContinue).$entry
+
+    if ($current -ne $requiredValue) {
+        Write-Host "Non-compliant: $entry → fixing..." -ForegroundColor Yellow
+        Set-ItemProperty -Path $regPath -Name $entry -Value $requiredValue -Type String
+    } else {
+        Write-Host "Compliant: $entry is correctly set."
+    }
+}
+
+Write-Host "Hardened UNC Paths check & remediation completed."
