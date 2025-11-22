@@ -1,0 +1,41 @@
+<#
+.SYNOPSIS
+    This PowerShell script disables IPv6 source routing using the highest protection level by setting the required registry value.
+.NOTES
+    Author          : Daniel Tsang
+    LinkedIn        : www.linkedin.com/in/daniel-tsang-58a772381
+    GitHub          : github.com/DanielTsang26
+    Date Created    : 2025-11-21
+    Last Modified   : 2025-11-21
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000020
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000020).ps1 
+#>
+
+# Registry path and setting for IPv6 Source Routing protection
+$RegPath = "HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters"
+$ValueName = "DisableIpSourceRouting"
+$ValueData = 2   # Highest protection
+
+# Create the registry path if missing
+if (-not (Test-Path $RegPath)) {
+    New-Item -Path $RegPath -Force | Out-Null
+}
+
+# Apply the STIG value
+Set-ItemProperty -Path $RegPath -Name $ValueName -Value $ValueData -Type DWord
+
+# Output the result to verify
+Get-ItemProperty -Path $RegPath -Name $ValueName
