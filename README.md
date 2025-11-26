@@ -31,6 +31,8 @@
   - [Vulnerability Management Lab](https://github.com/DanielTsang26/vulnerability-management-project)
     
   - [Threat Hunting Lab](https://github.com/DanielTsang26/threat-hunting-project/tree/main)
+    
+  - [Threat Hunting Lab](https://github.com/DanielTsang26/threat-hunt-scenario-azuki-import-export-)
 
      ```
      Technologies used: VirtualBox, Linux, Windows 10 ISO, Windows 2019 ,John the Ripper, Terminal(Bash/Shell),
