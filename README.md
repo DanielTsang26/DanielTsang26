@@ -85,7 +85,7 @@
 
 [<img align="left" alt=" Daniel Tsang | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-[linkedin]: https://linkedin.com/](www.linkedin.com/in/daniel-tsang-58a772381)
+[linkedin]: https://linkedin.com/](https://www.linkedin.com/in/daniel-tsang1/)
 
 
 
