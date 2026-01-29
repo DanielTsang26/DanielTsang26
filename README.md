@@ -50,9 +50,11 @@
    - [Network Monitoring Tool](https://github.com/DanielTsang26/network-packet-monitoring-tool/tree/main)
      
    - [Firmware Configuration Drift Monitor](https://github.com/DanielTsang26/firm-configuration-drift-monitor)
+     
+   - [SecureShare - TCP File Transfer System](https://github.com/DanielTsang26/SecureShare)
  
      ```
-     Technologies | Languages used: Python, MySQL, Flask, HTML, CSS, VSCode
+     Technologies | Languages used: Python, MySQL, Flask, HTML, CSS, VSCode, ngrok, ZMT Solver, asyncio
      ```
 ## <code> Security Technical Implementation Guides (Remedition via PowerShell) </code> 
   - [STIGs](https://github.com/DanielTsang26/DanielTsang26/tree/main/STIGS)
